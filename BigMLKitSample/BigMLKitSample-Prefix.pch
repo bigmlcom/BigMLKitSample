@@ -1,0 +1,23 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+#import <Foundation/Foundation.h>
+#import "BigMLKit.h"
+
+#define NSOnState 1
+#define NSOffState 0
+#define BMGreenColor [UIColor colorWithRed:127/255.0 green:159/255.0 blue:31/255.0 alpha:1.0]
+
+#endif
+

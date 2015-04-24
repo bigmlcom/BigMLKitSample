@@ -1,0 +1,12 @@
+[submodule "libs/MMDrawerController"]
+	path = libs/MMDrawerController
+	url = https://github.com/mutualmobile/MMDrawerController
+[submodule "libs/FXForms"]
+	path = libs/FXForms
+	url = https://github.com/sdesimone/FXForms.git
+[submodule "libs/RTLabel"]
+	path = libs/RTLabel
+	url = https://github.com/honcheng/RTLabel.git
+[submodule "libs/BigMLKit"]
+	path = libs/BigMLKit
+	url = https://github.com/bigmlcom/BigMLKit.git
