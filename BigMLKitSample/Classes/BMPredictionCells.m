@@ -435,6 +435,7 @@ static inline void FXFormLabelSetMinFontSize(UILabel* label, CGFloat fontSize) {
     BMPredictionOption* option = field.value;
     if (!option) {
         option = [BMPredictionOption new];
+        option.options = field.options;
         field.value = option;
     }
     [super setField:field];
@@ -488,6 +489,8 @@ static inline void FXFormLabelSetMinFontSize(UILabel* label, CGFloat fontSize) {
     }
     if (index != NSNotFound) {
         [_picker selectRow:index inComponent:0 animated:NO];
+    } else {
+        [_picker selectRow:0 inComponent:0 animated:NO];
     }
     
     _pickedValue.text = pickerValue;

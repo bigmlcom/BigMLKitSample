@@ -159,12 +159,6 @@
     float paddingSlider2Label = 0;
     
     [self addConstraints:
-     [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-sliderTopMargin-[_slider]-|"
-                                             options:0
-                                             metrics:@{@"sliderTopMargin": @(sliderTopMargin)}
-                                               views:views]];
-    
-    [self addConstraints:
      [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-sliderTopMargin-[_slider]-paddingSlider2Label-[_lowerLabel]-0-|"
                                              options:0
                                              metrics:@{@"sliderTopMargin": @(sliderTopMargin),

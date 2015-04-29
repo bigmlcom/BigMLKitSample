@@ -79,8 +79,6 @@
 		49C5A9D81AEAACA100B81AA6 /* BMSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C5A9B71AEAACA100B81AA6 /* BMSlider.m */; };
 		49C5A9D91AEAACA100B81AA6 /* BMToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C5A9B91AEAACA100B81AA6 /* BMToolbar.m */; };
 		49C5A9DA1AEAACA100B81AA6 /* BML4iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C5A9BC1AEAACA100B81AA6 /* BML4iOS.m */; };
-		49C5A9DB1AEAACA100B81AA6 /* BMLFieldModelFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C5A9BE1AEAACA100B81AA6 /* BMLFieldModelFactory.m */; };
-		49C5A9DC1AEAACA100B81AA6 /* BMLFieldModels.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C5A9C01AEAACA100B81AA6 /* BMLFieldModels.m */; };
 		49C5A9DD1AEAACA100B81AA6 /* BMLResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C5A9C21AEAACA100B81AA6 /* BMLResource.m */; };
 		49C5A9DE1AEAACA100B81AA6 /* BMLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C5A9C41AEAACA100B81AA6 /* BMLUtils.m */; };
 		49C5A9DF1AEAACA100B81AA6 /* BMLViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C5A9C61AEAACA100B81AA6 /* BMLViewModel.m */; };
@@ -216,10 +214,6 @@
 		49C5A9B91AEAACA100B81AA6 /* BMToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BMToolbar.m; path = Classes/BMToolbar.m; sourceTree = "<group>"; };
 		49C5A9BB1AEAACA100B81AA6 /* BML4iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BML4iOS.h; sourceTree = "<group>"; };
 		49C5A9BC1AEAACA100B81AA6 /* BML4iOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BML4iOS.m; sourceTree = "<group>"; };
-		49C5A9BD1AEAACA100B81AA6 /* BMLFieldModelFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMLFieldModelFactory.h; sourceTree = "<group>"; };
-		49C5A9BE1AEAACA100B81AA6 /* BMLFieldModelFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMLFieldModelFactory.m; sourceTree = "<group>"; };
-		49C5A9BF1AEAACA100B81AA6 /* BMLFieldModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMLFieldModels.h; sourceTree = "<group>"; };
-		49C5A9C01AEAACA100B81AA6 /* BMLFieldModels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMLFieldModels.m; sourceTree = "<group>"; };
 		49C5A9C11AEAACA100B81AA6 /* BMLResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMLResource.h; sourceTree = "<group>"; };
 		49C5A9C21AEAACA100B81AA6 /* BMLResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMLResource.m; sourceTree = "<group>"; };
 		49C5A9C31AEAACA100B81AA6 /* BMLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMLUtils.h; sourceTree = "<group>"; };
@@ -533,10 +527,6 @@
 				49C5A9E41AEE401F00B81AA6 /* BMLWorkflowModel.m */,
 				49C5A9C51AEAACA100B81AA6 /* BMLViewModel.h */,
 				49C5A9C61AEAACA100B81AA6 /* BMLViewModel.m */,
-				49C5A9BD1AEAACA100B81AA6 /* BMLFieldModelFactory.h */,
-				49C5A9BE1AEAACA100B81AA6 /* BMLFieldModelFactory.m */,
-				49C5A9BF1AEAACA100B81AA6 /* BMLFieldModels.h */,
-				49C5A9C01AEAACA100B81AA6 /* BMLFieldModels.m */,
 				49C5A9C11AEAACA100B81AA6 /* BMLResource.h */,
 				49C5A9C21AEAACA100B81AA6 /* BMLResource.m */,
 				49C5A9C31AEAACA100B81AA6 /* BMLUtils.h */,
@@ -563,9 +553,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4942BD1618DB9B71003F269C /* BigMLKitSample */ = {
+		4942BD1618DB9B71003F269C /* BigMLSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4942BD4F18DB9B71003F269C /* Build configuration list for PBXNativeTarget "BigMLKitSample" */;
+			buildConfigurationList = 4942BD4F18DB9B71003F269C /* Build configuration list for PBXNativeTarget "BigMLSample" */;
 			buildPhases = (
 				4942BD1318DB9B71003F269C /* Sources */,
 				4942BD1418DB9B71003F269C /* Frameworks */,
@@ -575,7 +565,7 @@
 			);
 			dependencies = (
 			);
-			name = BigMLKitSample;
+			name = BigMLSample;
 			productName = BigMLKitSample;
 			productReference = 4942BD1718DB9B71003F269C /* BigMLKitSample.app */;
 			productType = "com.apple.product-type.application";
@@ -602,7 +592,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4942BD1618DB9B71003F269C /* BigMLKitSample */,
+				4942BD1618DB9B71003F269C /* BigMLSample */,
 			);
 		};
 /* End PBXProject section */
@@ -662,10 +652,8 @@
 				49C5A99C1AEAAB6800B81AA6 /* LocalPredictionCluster.m in Sources */,
 				49C5A9E21AEAACA100B81AA6 /* BMResourceListViewController.m in Sources */,
 				49C5A99A1AEAAB6800B81AA6 /* HTTPCommsManager.m in Sources */,
-				49C5A9DB1AEAACA100B81AA6 /* BMLFieldModelFactory.m in Sources */,
 				49C5A9D11AEAACA100B81AA6 /* BMPrediction.m in Sources */,
 				49C5A9CE1AEAACA100B81AA6 /* BMAppDelegate.m in Sources */,
-				49C5A9DC1AEAACA100B81AA6 /* BMLFieldModels.m in Sources */,
 				49C5A99E1AEAAB6800B81AA6 /* LocalPredictiveModel.m in Sources */,
 				49C5A9DE1AEAACA100B81AA6 /* BMLUtils.m in Sources */,
 				49C5A9CF1AEAACA100B81AA6 /* BMDrawerTableViewCell.m in Sources */,
@@ -847,7 +835,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4942BD4F18DB9B71003F269C /* Build configuration list for PBXNativeTarget "BigMLKitSample" */ = {
+		4942BD4F18DB9B71003F269C /* Build configuration list for PBXNativeTarget "BigMLSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4942BD5018DB9B71003F269C /* Debug */,
